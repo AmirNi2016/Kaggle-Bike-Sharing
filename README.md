@@ -1,11 +1,22 @@
-# [Kaggle-Bike-Sharing](https://www.kaggle.com/c/bike-sharing-demand)
-This is an ongoing project on Kaggle Bike Sharing problem. I explopre the data, preprocess, visualize, analyze and an try different linear and nonlinear regression models and compare their performance on the data set. Each section is treated in a separate ipython notebook for ease of review.
+# Kaggle-Bike-Sharing
+This is an ongoing project on [Kaggle's Bike Sharing problem](https://www.kaggle.com/c/bike-sharing-demand). I explopre the data, preprocess, visualize, analyze and an try different linear and nonlinear regression models and compare their performance on the data set. Each section is treated in a separate ipython notebook for ease of review.
 
 ### 01 - Kaggle - bike share system -  Problem formulation
 Description of the problem, the data set (features, targets) and discussion of the evaluation metric.
 
 ### 02 - Kaggle - bike share system - Data preprocessing
-Using pandas' time series capabilities, we extract numerical values of date (year, month, day) and time (hour) from the `datetime` column. Also, we make one additional data set where the categorical data are represented by dummy matrices.
+Preprocessing: using pandas' time series capabilities, we extract numerical values of date (year, month, day) and time (hour) from the `datetime` column. Also, we make one additional data set where the categorical data are represented by dummy matrices.
+
+### 03 - Kaggle - bike share system - data visualization
+Exporatory data analysis: we plot the average number of customers for different day time periods, weekdays and months over the two year time span. We use groupby and aggregate capabilities of the panadas to obtain the average number of customers for different scenarios (see **Tutorial - Multi Indexig and Groupby in Pandas.ipynb** for a tutorial on code details).
+The plots show that the business had had growth from 2011 to 2012. Casual customers use the system more on weekends while registerd customers use the system more on workdays. The data shows a seasonality pattern. The maximum usage is between 10:00 am and 5:00 pm. 
+
+
+
+
+
+
+
 
 
 
