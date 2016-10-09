@@ -1,7 +1,7 @@
 # Kaggle-Bike-Sharing
 This is an ongoing project on [Kaggle's Bike Sharing problem](https://www.kaggle.com/c/bike-sharing-demand). I explopre the data, preprocess, visualize, analyze and an try different linear and nonlinear regression models and compare their performance on the data set. Each section is treated in a separate ipython notebook for ease of review.
 
-### 01 - Kaggle - bike share system -  Problem formulation
+### 01 - [Kaggle - bike share system -  Problem formulation](Kaggle-Bike-Sharing/blob/master/01%20-%20Kaggle%20-%20bike%20share%20system%20-%20problem%20formulation.ipynb)
 Description of the problem, the data set (features, targets) and discussion of the evaluation metric.
 
 ### 02 - Kaggle - bike share system - Data preprocessing
@@ -10,6 +10,9 @@ Preprocessing: using pandas' time series capabilities, we extract numerical valu
 ### 03 - Kaggle - bike share system - data visualization
 Exporatory data analysis: we plot the average number of customers for different day time periods, weekdays and months over the two year time span. We use groupby and aggregate capabilities of the panadas to obtain the average number of customers for different scenarios (see **Tutorial - Multi Indexig and Groupby in Pandas.ipynb** for a tutorial on code details).
 The plots show that the business had had growth from 2011 to 2012. Casual customers use the system more on weekends while registerd customers use the system more on workdays. The data shows a seasonality pattern. The maximum usage is between 10:00 am and 5:00 pm. 
+
+### 04 - Kaggle - bike share system - Adding customer average to the features
+Since 
 
 
 
