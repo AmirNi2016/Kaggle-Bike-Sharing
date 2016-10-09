@@ -12,11 +12,7 @@ Exporatory data analysis: we plot the average number of customers for different 
 The plots show that the business had had growth from 2011 to 2012. Casual customers use the system more on weekends while registerd customers use the system more on workdays. The data shows a seasonality pattern. The maximum usage is between 10:00 am and 5:00 pm. 
 
 ### 04 - Kaggle - bike share system - Adding customer average to the features
-Since 
-
-
-
-
+We would like to extract the maximum possible information from the data to train our model. Since Kaggle's bike sharing challenge is an intrapolation problem (except for December 2012 with is an extrapolation), it is reasonable hypothesis to assume that the unknown customer number during the last ten days of each month is close to the average of the known values for each weekday and time frame. So, in our first attempt, we add these average values as new columns of features. FOr this purpose we use pandas' groupby, aggregation, and multi-indexing capabilities. The new data frames are stored as new CSV files.
 
 
 
