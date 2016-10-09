@@ -17,6 +17,9 @@ We would like to extract the maximum possible information from the data to train
 ### [05 - Kaggle - bike share system - data analysis](https://github.com/AmirNi2016/Kaggle-Bike-Sharing/blob/master/05%20-%20Kaggle%20-%20bike%20share%20system%20-%20data%20analysis.ipynb)
 After the aformentioned data preprocessing, manipulation and visualization, the next step is to analyze them further and investigate the correlations. We can then brainstorm on possible machine learning models to be used for this problem. The basic property to study is the correlation between the features and the possibility of [multicollinearity](https://en.wikipedia.org/wiki/Multicollinearity). Deviation of the customer number from its average values (the one we made in section 04) has almost no correlation with time and date features. The pairplot of each feature with each target (the deviation value) does not show linear relationships. Therefore, possibly, the linear regression may not be a good model. However, we examin it to test the hypothesis.  
 
+# [06 - Kaggle - bike share system - Ordinary Linear Regression](https://github.com/AmirNi2016/Kaggle-Bike-Sharing/blob/master/06%20-%20Kaggle%20-%20bike%20share%20system%20-%20Ordinary%20Linear%20Regression.ipynb)
+Here we train our first machine learning model. We employ ordinary regression model with mean squared error cost function. The predictions based on the deviation of customer number from the average give better RMSLE than predictions based on the customer number. Removing the collinear features leads to slight improvement, but nothing significant.
+
 
 
 
