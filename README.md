@@ -14,8 +14,8 @@ The plots show that the business had had growth from 2011 to 2012. Casual custom
 ### [04 - Kaggle - bike share system - Adding customer average to the features](https://github.com/AmirNi2016/Kaggle-Bike-Sharing/blob/master/04%20-%20Kaggle%20-%20bike%20share%20system%20-%20Adding%20customer%20average%20to%20the%20features.ipynb)
 We would like to extract the maximum possible information from the data to train our model. Since Kaggle's bike sharing challenge is an intrapolation problem (except for December 2012 with is an extrapolation), it is reasonable hypothesis to assume that the unknown customer number during the last ten days of each month is close to the average of the known values for each weekday and time frame. So, in our first attempt, we add these average values as new columns of features. For this purpose we use pandas' groupby, aggregation, and multi-indexing capabilities. The new data frames are stored as new CSV files.
 
-### 05 - Kaggle - bike share system - data analysis
-
+### [05 - Kaggle - bike share system - data analysis]()
+After the aformentioned data preprocessing, manipulation and visualization, the next step is to analyze them further and investigate the correlations. We can then brainstorm on possible machine learning models to be used for this problem.
 
 
 
