@@ -1,7 +1,7 @@
 # Kaggle-Bike-Sharing
 This is an ongoing project on [Kaggle's Bike Sharing problem](https://www.kaggle.com/c/bike-sharing-demand). I explopre the data, preprocess, visualize, analyze and an try different linear and nonlinear regression models and compare their performance on the data set. Each section is treated in a separate ipython notebook for ease of review.
 
-### 01 - [Kaggle - bike share system -  Problem formulation](Kaggle-Bike-Sharing/blob/master/01%20-%20Kaggle%20-%20bike%20share%20system%20-%20problem%20formulation.ipynb)
+### 01 - [Kaggle - bike share system -  Problem formulation](https://github.com/AmirNi2016/Kaggle-Bike-Sharing/blob/master/01%20-%20Kaggle%20-%20bike%20share%20system%20-%20problem%20formulation.ipynb)
 Description of the problem, the data set (features, targets) and discussion of the evaluation metric.
 
 ### 02 - Kaggle - bike share system - Data preprocessing
