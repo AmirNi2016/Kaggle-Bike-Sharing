@@ -23,11 +23,6 @@ Here we train our first machine learning model. We employ ordinary regression mo
 ### [07 - Kaggle - bike share system - Random Forest](https://github.com/AmirNi2016/Kaggle-Bike-Sharing/blob/master/07%20-%20Kaggle%20-%20bike%20share%20system%20-%20Random%20Forest.ipynb)
 As the first candidate for nonliner regression, we employ random forest regressor from scikit learn. The results are much better than the ordinary linear regression model. Contrary to linear regression, here rmsle of the original values behaves better than the deviation values.
 
-### [08 - Kaggle - bike share system - RF Grid Search, Cross Validation]()
-To be continued ...
-
-
-
 
 
 
