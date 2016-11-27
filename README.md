@@ -1,6 +1,14 @@
 # Kaggle-Bike-Sharing
-[Kaggle's Bike Sharing problem](https://www.kaggle.com/c/bike-sharing-demand). I explopre the data, preprocess, visualize, analyze and an try different linear and nonlinear regression models and compare their performance on the data set. Each section is treated in a separate ipython notebook for ease of review. In summary, rendom forest gave the best values for Root Mean Squared Logarithmic Error (RMSLE):
+[Kaggle's Bike Sharing problem](https://www.kaggle.com/c/bike-sharing-demand). I explopre the data, preprocess, visualize, analyze and an try different linear and nonlinear regression models and compare their performance on the data set. Each section is treated in a separate ipython notebook for ease of review. In summary, rendom forest gave the best values for Root Mean Squared Logarithmic Error (RMSLE), and the best model fitting results are for fitting on the deviations from the average logarithmic values:
+
 ![packed spheres in a box](rmsle.png)
+
+Examples of random forest fitting based on different methods of engineering the target values:
+
+![packed spheres in a box](Original.png)
+![packed spheres in a box](Orig-dev.png)
+![packed spheres in a box](logarithm.png)
+![packed spheres in a box](log-dev.png)
 
 
 
