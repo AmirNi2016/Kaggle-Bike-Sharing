@@ -3,7 +3,7 @@
 
 ![packed spheres in a box](rmsle.png)
 
-Examples of random forest fitting based on different methods of engineering the target values:
+Examples of random forest fitting based on different methods of engineering the target values (red lines are the actual data):
 
 ![packed spheres in a box](Original.png)
 ![packed spheres in a box](Orig-dev.png)
